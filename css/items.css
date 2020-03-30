@@ -1,0 +1,59 @@
+.card {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    vertical-align:middle;
+}
+
+.inner {
+    background-color: #a18b78;
+    margin: 10px;
+    padding: 85px 0;
+    background-position: center;
+    background-size: 150%;
+    background-repeat: no-repeat;
+    transition: all 0.7s;
+    -webkit-transition: all 0.7s;
+    -moz-transition: all 0.7s;
+    -ms-transition: all 0.7s;
+    -o-transition: all 0.7s;
+}
+.inner:hover {
+    background-size: 200%;
+    transition: all 0.7s;
+    -webkit-transition: all 0.7s;
+    -moz-transition: all 0.7s;
+    -ms-transition: all 0.7s;
+    -o-transition: all 0.7s;
+}
+
+.cardBox {
+    margin-top: 20px;
+}
+
+h2, h3 {
+    text-align: center;
+    margin: 50px;
+    color: #7a695a;
+}
+
+.service-box h5, .service-box i
+{
+    color: #7a695a;
+    opacity: 0.5;
+}
+
+.service-box:hover i, .service-box:hover h5 {
+    opacity: 1;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+
+.item img {
+    height: 100px;
+    width: 100px;
+}

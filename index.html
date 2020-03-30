@@ -1,1269 +1,876 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-
-	<meta charset="utf-8">
+	<!-- meta settings -->
+	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
-	<meta name="keywords" content="">
-	<meta name="description" content="">
-	
-	<title>Retta - Creative Multi-Purpose HTML5 &amp; CSS3 Template</title>
-	
-	<!-- FAVICON AND APPLE TOUCH -->    
-	<link rel="shortcut icon" href="favicon.png">
-	<link rel="apple-touch-icon-precomposed" sizes="180x180" href="apple-touch-180x180.png">
-	<meta name="msapplication-TileImage" content="mstile.png">
-	
-	<!-- FONTS -->
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,400,400italic,500,500italic,700italic,700,900,900italic">
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400italic,700,700italic,900,900italic">
-	
-	<!-- BOOTSTRAP CSS -->
-	<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css"> 
-	
-	<!-- FONT AWESOME -->
-	<link rel="stylesheet" href="assets/fonts/fontawesome/css/font-awesome.min.css">
-	
-	<!-- RETTA ICONS -->
-	<link rel="stylesheet" href="assets/fonts/retta-icons/css/retta-icons.min.css">
-	
-	<!-- FANCYBOX -->
-	<link rel="stylesheet" href="assets/plugins/fancybox/jquery.fancybox.min.css">
-	
-	<!-- REVOLUTION SLIDER -->
-	<link rel="stylesheet" href="assets/plugins/revolutionslider/css/settings.css">
-	<link rel="stylesheet" href="assets/plugins/revolutionslider/css/layers.css">
-	<link rel="stylesheet" href="assets/plugins/revolutionslider/css/navigation.css">
-	
-	<!-- OWL Carousel -->
-	<link rel="stylesheet" href="assets/plugins/owl-carousel/owl.carousel.css">
-	
-	<!-- COUNTERS -->
-	<link rel="stylesheet" href="assets/plugins/counters/odometer-theme-default.css">
-	
-	<!-- YOUTUBE PLAYER -->
-	<link rel="stylesheet" href="assets/plugins/ytplayer/css/jquery.mb.ytplayer.min.css">
-	
-	<!-- ANIMATIONS -->
-	<link rel="stylesheet" href="assets/plugins/animations/animate.min.css">
-	
-	<!-- CUSTOM & PAGES STYLE -->
-	<link rel="stylesheet" href="assets/css/custom.css">
-	<link rel="stylesheet" href="assets/css/pages-style.css">
-	
+	<meta name="keywords" content="therapy, antares, sunpeaks, healing">
+	<meta name="description" content="therapy website">
 
+	<!-- favicon -->
+	<link rel="shortcut icon" href="img/logo.ico">
+
+	<!-- BOOTSTRAP CSS -->
+	<link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
+
+	<!-- FONTS -->
+	<link rel="stylesheet"
+		href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,400,400italic,500,500italic,700italic,700,900,900italic">
+	<link rel="stylesheet"
+		href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400italic,700,700italic,900,900italic">
+
+	<!-- FONT AWESOME -->
+	<link rel="stylesheet" href="plugins/fonts/fontawesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="plugins/fonts/fontawesome/css/all.min.css">
+
+	<!-- RETTA ICONS -->
+	<link rel="stylesheet" href="plugins/fonts/retta-icons/css/retta-icons.min.css">
+
+	<!-- REVOLUTION SLIDER -->
+	<link rel="stylesheet" href="plugins/revolutionslider/css/settings.css">
+	<link rel="stylesheet" href="plugins/revolutionslider/css/layers.css">
+	<link rel="stylesheet" href="plugins/revolutionslider/css/navigation.css">
+
+	<!-- OWL Carousel -->
+	<link rel="stylesheet" href="plugins/owl-carousel/owl.carousel.css">
+
+	<!-- FANCYBOX -->
+	<link rel="stylesheet" href="plugins/fancybox/jquery.fancybox.min.css">
+
+	<!-- RETTA -->
+	<link rel="stylesheet" href="plugins/retta/css/custom.css">
+	<link rel="stylesheet" href="plugins/retta/css/pages-style.css">
+
+	<!-- WOW -->
+	<link rel="stylesheet" href="plugins/wow/css/animate.css">
+
+	<!-- css -->
+	<link rel="stylesheet" href="css/header.css">
+	<link rel="stylesheet" href="css/footer.css">
+	<link rel="stylesheet" href="css/about.css">
+	<link rel="stylesheet" href="css/items.css">
+
+	<title>Antares</title>
 </head>
 
-<body class="sticky-header footer-style-1 header-style-1">
-
+<body class="sticky-header footer-style-2 header-style-2">
 	<div id="main-container">
-		
 		<!-- HEADER -->
-		<header id="header-container">
-			
-			<div class="container">
-				<div class="row">
-					<div class="col-sm-12">
-					
-						<div id="header">
-					
-							<div class="row">
-								<div class="col-sm-3">
-								
-									<!-- LOGO -->
-									<div id="logo">
-										<a href="index.html">
-											<img src="assets/images/logo.png" alt="">
-										</a>
-									</div><!-- LOGO -->
-								
-								</div><!-- col -->
-								<div class="col-sm-9">
-									
-									<!-- MENU --> 
-									<nav>
-										
-										<a id="mobile-menu-button" href="#"><i class="retta-icon-menu-button"></i></a>
-										
-										<ul class="menu clearfix" id="menu">
-											<li class="active"><a href="index.html" data-symbol="H">Home</a></li>
-											<li class="dropdown">
-												<a href="#" data-symbol="F">Features</a>
-												<ul>
-													<li class="dropdown">
-														<a href="#">Header</a>
-														<ul>
-															<li><a href="features-header-1.html">Header style 1</a></li>
-															<li><a href="features-header-2.html">Header style 2</a></li>
-															<li><a href="features-header-3.html">Header style 3</a></li>
-															<li><a href="features-header-4.html">Header style 4</a></li>
-															<li><a href="features-header-5.html">Header style 5</a></li>
-															<li><a href="features-header-6.html">Header style 6</a></li>
-															<li><a href="features-header-7.html">Header style 7</a></li>
-															<li><a href="features-header-8.html">Header style 8</a></li>
-															<li><a href="features-header-9.html">Header style 9</a></li>
-															<li><a href="features-header-10.html">Header style 10</a></li>
-															<li><a href="features-header-11.html">Header style 11</a></li>
-															<li><a href="features-header-12.html">Header style 12</a></li>
-														</ul>
-													</li>
-													<li class="dropdown">
-														<a href="#">Sticky header</a>
-														<ul>
-															<li><a href="features-sticky-header.html">With sticky header</a></li>
-															<li><a href="features-no-sticky-header.html">Without sticky header</a></li>
-														</ul>
-													</li>
-													<li class="dropdown">
-														<a href="#">Page header</a>
-														<ul>
-															<li><a href="features-page-header-parallax.html">Page header parallax</a></li>
-															<li><a href="features-page-header-simple.html">Page header simple</a></li>
-														</ul>
-													</li>
-													<li class="dropdown">
-														<a href="#">Footer</a>
-														<ul>
-															<li><a href="features-footer-style-1.html">Footer style 1</a></li>
-															<li><a href="features-footer-style-2.html">Footer style 2</a></li>
-															<li><a href="features-footer-style-3.html">Footer style 3</a></li>
-														</ul>
-													</li>
-												</ul>
-											</li>
-											<li class="dropdown">
-												<a href="#" data-symbol="P">Pages</a>
-												<ul>
-													<li><a href="about-us.html">About us</a></li>
-													<li><a href="services.html">Services</a></li>
-													<li><a href="single-service.html">Single service</a></li>
-													<li><a href="contact.html">Contact</a></li>
-													<li class="dropdown">
-														<a href="#">Special pages</a>
-														<ul>
-															<li><a href="error-404.html">Error 404</a></li>
-															<li><a href="maintenance.html">Maintenance</a></li>
-															<li><a href="coming-soon.html">Coming soon</a></li>
-															<li><a href="faq.html">FAQ</a></li>
-															<li><a href="search-results.html">Search results</a></li>
-														</ul>
-													</li>
-													<li class="dropdown">
-														<a href="#">Samples pages</a>
-														<ul>
-															<li><a href="page-no-sidebar.html">No sidebar</a></li>
-															<li><a href="page-right-sidebar.html">Right sidebar</a></li>
-															<li><a href="page-left-sidebar.html">Left sidebar</a></li>
-															<li><a href="page-fluid.html">Fluid page</a></li>
-														</ul>
-													</li>
-												</ul>
-											</li>
-											<li class="dropdown">
-												<a href="#" data-symbol="P">Portfolio</a>
-												<ul>
-													<li class="dropdown">
-														<a href="#">Portfolio pagination</a>
-														<ul>
-															<li><a href="portfolio-pagination-no-gutter.html">3 cols (no gutter)</a></li>
-															<li><a href="portfolio-pagination-gutter.html">3 cols (gutter)</a></li>
-															<li><a href="portfolio-pagination-titles.html">3 cols (titles)</a></li>
-															<li><a href="portfolio-pagination-gutter-titles.html">3 cols (gutter &amp; titles)</a></li>
-														</ul>
-													</li>
-													<li class="dropdown">
-														<a href="#">Portfolio filter</a>
-														<ul>
-															<li><a href="portfolio-filter-no-gutter.html">3 cols (no gutter)</a></li>
-															<li><a href="portfolio-filter-gutter.html">3 cols (gutter)</a></li>
-															<li><a href="portfolio-filter-titles.html">3 cols (titles)</a></li>
-															<li><a href="portfolio-filter-gutter-titles.html">3 cols (gutter &amp; titles)</a></li>
-														</ul>
-													</li>
-													<li class="dropdown">
-														<a href="#">Portfolio fullwidth</a>
-														<ul>
-															<li><a href="portfolio-fullwidth-no-gutter.html">4 cols (no gutter)</a></li>
-															<li><a href="portfolio-fullwidth-gutter.html">4 cols (gutter)</a></li>
-															<li><a href="portfolio-fullwidth-titles.html">4 cols (titles)</a></li>
-															<li><a href="portfolio-fullwidth-gutter-titles.html">4 cols (gutter &amp; titles)</a></li>
-														</ul>
-													</li>
-													<li><a href="portfolio-masonry.html">Portfolio masonry</a></li>
-													<li><a href="portfolio-single.html">Portfolio single</a></li>
-												</ul>
-											</li>
-											<li class="dropdown">
-												<a href="#" data-symbol="B">Blog</a>
-												<ul>
-													<li><a href="blog-right-sidebar.html">Blog right sidebar</a></li>
-													<li><a href="blog-left-sidebar.html">Blog left sidebar</a></li>
-													<li><a href="blog-no-sidebar.html">Blog no sidebar</a></li>											
-													<li class="dropdown">
-														<a href="#">Blog post</a>
-														<ul>
-															<li><a href="blog-post-right-sidebar.html">Blog post right sidebar</a></li>
-															<li><a href="blog-post-left-sidebar.html">Blog post left sidebar</a></li>
-															<li><a href="blog-post-no-sidebar.html">Blog post no sidebar</a></li>
-														</ul>
-													</li>
-												</ul>
-											</li>
-											<li class="megamenu">
-												<a href="#" data-symbol="S">Shortcodes</a>
-												<div class="megamenu-container col-4">
-													<div class="section">
-
-														<ul>
-															<li><a href="shortcodes-grid.html">Grid</a></li>
-															<li><a href="shortcodes-typography.html">Typography</a></li>
-															<li><a href="shortcodes-lists.html">Lists</a></li>
-															<li><a href="shortcodes-headlines.html">Headlines</a></li>
-															<li><a href="shortcodes-tables.html">Tables</a></li>
-															<li><a href="shortcodes-forms.html">Forms</a></li>
-															<li><a href="shortcodes-buttons.html">Buttons</a></li>
-															<li><a href="shortcodes-dividers.html">Dividers</a></li>
-															<li><a href="shortcodes-icons-pack.html">Icons pack</a></li>
-														</ul>
-
-													</div>
-													<div class="section">
-
-														<ul>
-															<li><a href="shortcodes-alerts.html">Alerts</a></li>
-															<li><a href="shortcodes-text-boxes.html">Text boxes</a></li>
-															<li><a href="shortcodes-image-boxes.html">Image boxes</a></li>
-															<li><a href="shortcodes-services-boxes.html">Services boxes</a></li>
-															<li><a href="shortcodes-timeline.html">Timeline</a></li>
-															<li><a href="shortcodes-process-steps.html">Process steps</a></li>
-															<li><a href="shortcodes-pricing-plans.html">Pricing plans</a></li>
-															<li><a href="shortcodes-team.html">Team</a></li>
-															<li><a href="shortcodes-testimonials.html">Testimonials</a></li>
-														</ul>
-
-													</div>
-													<div class="section">
-
-														<ul>
-															<li><a href="shortcodes-accordions.html">Accordions</a></li>
-															<li><a href="shortcodes-tabs.html">Tabs</a></li>
-															<li><a href="shortcodes-maps.html">Maps</a></li>
-															<li><a href="shortcodes-clients.html">Clients</a></li>
-															<li><a href="shortcodes-galleries.html">Galleries</a></li>
-															<li><a href="shortcodes-media-content.html">Media content</a></li>
-															<li><a href="shortcodes-social-media.html">Social media</a></li>
-															<li><a href="shortcodes-filters-paginations.html">Filters &amp; Paginations</a></li>
-															<li><a href="shortcodes-widgets.html">Widgets</a></li>
-														</ul>
-
-													</div>
-													<div class="section">
-
-														<ul>
-															<li><a href="shortcodes-counters.html">Counters</a></li>
-															<li><a href="shortcodes-pie-charts.html">Pie charts</a></li>
-															<li><a href="shortcodes-progress-bars.html">Progress bars</a></li>
-															<li><a href="shortcodes-statistics.html">Statistics</a></li>
-															<li><a href="shortcodes-animations.html">Animations</a></li>
-															<li><a href="shortcodes-sliders.html">Sliders</a></li>
-															<li><a href="shortcodes-full-sections.html">Full sections</a></li>
-															<li><a href="shortcodes-parallax-backgrounds.html">Parallax backgrounds</a></li>
-															<li><a href="shortcodes-video-backgrounds.html">Video backgrounds</a></li>
-														</ul>
-
-													</div>
-												</div>
-											</li>
-											<li class="search">
-
-												<a href="#search-form-container"><i class="retta-icon-tool192"></i></a>
-
-												<div id="search-form-container">
-							
-													<form id="search-form" action="#">
-														<input id="search" type="search" name="search" placeholder="Enter keywords...">
-														<input id="search-submit" type="submit" value="">
-													</form>
-													
-												</div><!-- search-form-container -->
-
-											</li>
-											<li class="login">
-
-												<a class="btn btn-default" href="#login-form-container">Login</a>
-
-												<div id="login-form-container">
-												
-													<h4>Login Form</h4>
-													
-													<form class="login-form" name="login" method="post" action="#">
-														<fieldset>
-														
-															<input class="col-xs-12" id="email" type="email" placeholder="E-mail address">
-														
-															<input class="col-xs-12" id="password" type="password" placeholder="Password">
-															
-															<div class="checkbox">
-																<label>
-																	<input type="checkbox"> Remember me
-																</label>
-															</div>
-															
-															<button type="submit" class="btn btn-default btn-lg">Log in</button>
-															
-														</fieldset>
-													</form>
-													
-													<a href="#">Don't have an account?</a> <br class="visible-xs-block">
-													<a href="#">Forgotten password?</a>
-													
-												</div><!-- login-form-container -->
-
-											</li>
-										</ul>
-									
-									</nav>
-									
-								</div><!-- col -->
-							</div><!-- row -->
-							
-						</div><!-- header -->
-						
-					</div><!-- col -->
-				</div><!-- row -->
-			</div><!-- container -->
-			
-			<div class="rev_slider_wrapper">
-                <div class="rev_slider" data-version="5.0">
-                    <ul>
-                        <li data-transition="fade" data-thumb="images/index/revolution-slider/bg-slide-1.jpg" data-title="A brand with history">
-
-                            <img src="images/index/revolution-slider/bg-slide-1.jpg" alt="">
-							
-							<div class="tp-caption title-white text-center"
-								 data-x="center" 
-								 data-y="center" 
-								 data-voffset="-55"
-								 data-start="1200" 
-								 data-speed="300"
-								 data-textalign="center"
-								 data-transform_in="y:-100;z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:500;e:Power2.easeInOut;" 
-								 data-transform_out="y:-100;s:500;e:Power2.easeInOut;" 
-								 data-mask_in="x:0px;y:-100;s:inherit;e:inherit;" 
-								 data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;">
-								 A brand <br> with history
+		<header style="margin-bottom: 0;" id="header-container">
+			<div id="header">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-3">
+							<!-- LOGO -->
+							<div id="logo">
+								<a href="index.html">
+									<img class="logoImg" src="img/logo.png" alt="logo">
+								</a>
 							</div>
-							
-							<div class="tp-caption text-white text-center hidden-sm hidden-xs"
-								 data-x="center" 
-								 data-y="center" 
-								 data-voffset="145"
-								 data-start="1400" 
-								 data-speed="300"
-								 data-textalign="center"
-								 data-transform_in="x:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:500;e:Power2.easeInOut;" 
-								 data-transform_out="x:[100%];s:500;e:Power3.easeInOut;" 
-								 data-mask_in="x:0px;y:0px;s:inherit;e:inherit;" 
-								 data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;">
-								 Morbi ut dapibus dui. Sed ut iaculis elit, quis varius mauris. Integer ut ultricies <br>
-								 orci, lobortis eges tas sem. Duis non volutpat arcu, eu mollis tellus. Sed <br>
-								 finibus aliquam neque sit amet sodales.
-							</div>
-							
-							<div class="tp-caption"
-                                 data-x="center"
-                                 data-y="center"
-								 data-voffset="245"
-                                 data-speed="700"
-                                 data-start="1650" 
-                                 data-transform_in="o:0;sX:0;sY:0;s:300;"
-                                 data-transform_out="o:0;sX:0;sY:0;s:300;">
-								 <a class="btn btn-default btn-lg" href="#">take the trip</a>
-                            </div>
-							
-						</li>
-						<li data-transition="fade" data-thumb="images/index/revolution-slider/bg-slide-2.jpg" data-title="Love &amp; Retta are on the way">
+						</div>
 
-                            <img src="images/index/revolution-slider/bg-slide-2.jpg" alt="">
-							
-							<div class="tp-caption title-2-white text-center"
-								 data-x="center" 
-								 data-y="center"
-								 data-start="1200" 
-								 data-speed="300"
-								 data-textalign="center"
-								 data-transform_in="o:0;sX:0;sY:0;s:300;"
-                                 data-transform_out="o:0;sX:0;sY:0;s:300;">
-								 Love &amp; <span class="text-default-color">Retta</span> <br> are on the way
-							</div>
-							
-							<div class="tp-caption title-2-white text-center rs-parallaxlevel-2"
-								 data-x="center" 
-								 data-y="center"
-								 data-voffset="200"
-								 data-start="1300" 
-								 data-speed="300"
-								 data-transform_in="o:0;sX:0;sY:0;s:300;"
-                                 data-transform_out="o:0;sX:0;sY:0;s:300;">
-								 <img src="images/index/revolution-slider/slide-2-image-1.png" alt="">
-							</div>
-							
-							<div class="tp-caption title-2-white text-center rs-parallaxlevel-1"
-								 data-x="center" 
-								 data-y="center"
-								 data-voffset="-130"
-								 data-hoffset="310"
-								 data-start="1300" 
-								 data-speed="300"
-								 data-transform_in="o:0;sX:0;sY:0;s:300;"
-                                 data-transform_out="o:0;sX:0;sY:0;s:300;">
-								 <img src="images/index/revolution-slider/slide-2-image-2.png" alt="">
-							</div>
-							
-							<div class="tp-caption title-2-white text-center rs-parallaxlevel-1"
-								 data-x="center" 
-								 data-y="center"
-								 data-voffset="100"
-								 data-hoffset="-420"
-								 data-start="1300" 
-								 data-speed="300"
-								 data-transform_in="o:0;sX:0;sY:0;s:300;"
-                                 data-transform_out="o:0;sX:0;sY:0;s:300;">
-								 <img src="images/index/revolution-slider/slide-2-image-3.png" alt="">
-							</div>
-							
-						</li>
-						<li data-transition="fade" data-thumb="images/index/revolution-slider/bg-slide-3.jpg" data-title="Happiness">
+						<div class="col-sm-9">
+							<!-- MENU -->
+							<nav>
+								<!-- burger icon -->
+								<a id="mobile-menu-button" href="#"><i class="retta-icon-menu-button"></i></a>
 
-                            <img src="images/index/revolution-slider/bg-slide-3.jpg" alt="">
-							
-							<div class="tp-caption subtitle-white text-center"
-								 data-x="center" 
-								 data-y="center"
-								 data-voffset="-60"
-								 data-start="1200" 
-								 data-speed="300"
-								 data-transform_in="o:0;y:-100;s:300;"
-                                 data-transform_out="o:0;y:-100;s:300;">
-								 This is a story about
-							</div>
-							
-							<div class="tp-caption title-2-big-white text-center"
-								 data-x="center" 
-								 data-y="center"
-								 data-voffset="60"
-								 data-start="1200" 
-								 data-speed="300"
-								 data-transform_in="o:0;y:100;s:300;"
-                                 data-transform_out="o:0;y:100;s:300;">
-								 Happiness
-							</div>
-						
-						</li>
-					</ul>
-				</div><!-- rev_slider -->
-			</div><!-- rev_slider_wrapper -->
-			
-		</header><!-- HEADER CONTAINER -->
-		
-		
+								<ul class="menu clearfix" id="menu">
+									<li><a class="scrollNav" href="#aboutUs" data-symbol="A">About Us</a></li>
+									<li><a class="scrollNav" href="#meetOurTeam" data-symbol="T">Meet Our Team</a></li>
+									<li><a class="scrollNav" href="#partners" data-symbol="P">Partners</a></li>
+									<li><a class="scrollNav" href="#pricing" data-symbol="$">Pricing</a></li>
+									<li><a class="scrollNav" href="#bookNow" data-symbol="B">Book now</a></li>
+									<li><a class="scrollNav" href="#contactUs" data-symbol="C">Contact Us</a></li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+
 		<!-- PAGE CONTENT -->
 		<div id="page-content">
-			
+			<!-- slider -->
+			<div class="rev_slider_wrapper">
+				<div class="rev_slider" data-version="5.0">
+					<ul>
+
+
+						<li data-transition="fade" data-thumb="img/backImg2.jpg" data-title="Get Help">
+							<div>
+								<img src="img/backImg2.jpg" alt="">
+
+
+								<div class="tp-caption title-white text-center" data-x="center" data-y="center"
+									data-voffset="-55" data-start="1200" data-speed="300" data-textalign="center"
+									data-transform_in="y:-100;z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:500;e:Power2.easeInOut;"
+									data-transform_out="y:-100;s:500;e:Power2.easeInOut;"
+									data-mask_in="x:0px;y:-100;s:inherit;e:inherit;"
+									data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;">
+									<h4 style="color:white">Welcome to</h4>
+									Antares Counselling
+								<h3 style="color:white">Help is only<br> a conversation away</h3>
+								</div>
+
+
+
+
+								<div class="tp-caption" data-x="center" data-y="center" data-voffset="245"
+									data-speed="700" data-start="1650" data-transform_in="o:0;sX:0;sY:0;s:300;"
+									data-transform_out="o:0;sX:0;sY:0;s:300;">
+									<a style="font-size: 20px;" class="btn btn-default btn-lg" href="#contactUs">Book Now</a>
+								</div>
+							</div>
+						</li>
+
+						<!-- slide 1 -->
+						<li data-transition="fade" data-thumb="img/backImg0.jpg" data-title="About">
+							<div>
+								<img src="img/backImg0.jpg" alt="">
+
+								<div class="tp-caption title-white text-center" data-x="center" data-y="center"
+									data-voffset="-55" data-start="1200" data-speed="300" data-textalign="center"
+									data-transform_in="y:-100;z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:500;e:Power2.easeInOut;"
+									data-transform_out="y:-100;s:500;e:Power2.easeInOut;"
+									data-mask_in="x:0px;y:-100;s:inherit;e:inherit;"
+									data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;">
+									Life can be better <br> with a conversation
+								</div>
+
+								<div class="tp-caption text-white text-center hidden-sm hidden-xs" data-x="center"
+									data-y="center" data-voffset="145" data-start="1400" data-speed="300"
+									data-textalign="center"
+									data-transform_in="x:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:500;e:Power2.easeInOut;"
+									data-transform_out="x:[100%];s:500;e:Power3.easeInOut;"
+									data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
+									data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;">
+								<h4 style="color:white">	<big><i>Talk</i></big> &
+									<big><i>Collaborate</i></big> <br />
+									instead of chasing quick-fix solutions.</h4>
+								</div>
+
+								<div class="tp-caption" data-x="center" data-y="center" data-voffset="245"
+									data-speed="700" data-start="1650" data-transform_in="o:0;sX:0;sY:0;s:300;"
+									data-transform_out="o:0;sX:0;sY:0;s:300;">
+									<a style="font-size: 20px;" class="btn btn-default btn-lg" href="#aboutUs">Learn more</a>
+								</div>
+							</div>
+						</li>
+
+						<!-- slide 2 -->
+						<li data-transition="fade" data-thumb="img/backImg1.jpg" data-title="Therapy services">
+							<div>
+								<img src="img/backImg1.jpg" alt="">
+
+								<div class="tp-caption title-2-white text-center" data-x="center" data-y="center"
+									data-start="1200" data-speed="300" data-textalign="center"
+									data-transform_in="o:0;sX:0;sY:0;s:300;" data-transform_out="o:0;sX:0;sY:0;s:300;">
+									Therapy services <br /> proudly based in <br /> Kamloops &amp; <br> <span
+										class="text-default-color">Sunpeaks</span> <i class="far fa-sun"></i> </i>
+								</div>
+
+								<div class="tp-caption title-2-white text-center rs-parallaxlevel-2" data-x="center"
+									data-y="center" data-voffset="200" data-start="1300" data-speed="300"
+									data-transform_in="o:0;sX:0;sY:0;s:300;" data-transform_out="o:0;sX:0;sY:0;s:300;">
+									<img src="img/flower0.png" alt="">
+								</div>
+
+								<div class="tp-caption title-2-white text-center rs-parallaxlevel-1" data-x="center"
+									data-y="center" data-voffset="-130" data-hoffset="310" data-start="1300"
+									data-speed="300" data-transform_in="o:0;sX:0;sY:0;s:300;"
+									data-transform_out="o:0;sX:0;sY:0;s:300;">
+									<img src="img/flower1.png" alt="">
+								</div>
+
+								<div class="tp-caption title-2-white text-center rs-parallaxlevel-1" data-x="center"
+									data-y="center" data-voffset="100" data-hoffset="-420" data-start="1300"
+									data-speed="300" data-transform_in="o:0;sX:0;sY:0;s:300;"
+									data-transform_out="o:0;sX:0;sY:0;s:300;">
+									<img src="img/flower2.png" alt="">
+								</div>
+							</div>
+						</li>
+
+						<!-- slide 3 -->
+
+					</ul>
+				</div>
+			</div>
+
+			<!-- Heading -->
+			<h3 id="aboutUs">We believe in connection > solutions. <br>Talk, collaborate, instead of chasing quick-fix solutions.</h3>
+
+			<!-- values -->
 			<div class="container">
-                <div class="row">
-                    <div class="col-sm-3">
-
-                        <div class="service-box style-1">
-							
-							<h5>01</h5>
-							
-							<div class="service-box-content">
-								
-								<h5><a href="single-service.html">Branding</a></h5>
-								
-								<p>Vestibulum hendrerit vehicula blandit. Donec lectus quam semper.</p>
-								
-								<a href="single-service.html">Read more</a>
-								
-							</div><!-- service-box-content -->
-							
-						</div><!-- service-box -->
-
-                    </div><!-- col -->
-					<div class="col-sm-3">
-
-                        <div class="service-box style-1">
-							
-							<h5>02</h5>
-							
-							<div class="service-box-content">
-								
-								<h5><a href="single-service.html">Identity</a></h5>
-								
-								<p>Incididunt ut labore et dolor sit magna aliqua. Ut enim ad minim.</p>
-								
-								<a href="single-service.html">Read more</a>
-								
-							</div><!-- service-box-content -->
-							
-						</div><!-- service-box -->
-
-                    </div><!-- col -->
-					<div class="col-sm-3">
-
-                        <div class="service-box style-1">
-							
-							<h5>03</h5>
-							
-							<div class="service-box-content">
-								
-								<h5><a href="single-service.html">Design</a></h5>
-								
-								<p>Labore et dolor magna aliqua. Ut enim ad minim veniam nostrud.</p>
-								
-								<a href="single-service.html">Read more</a>
-								
-							</div><!-- service-box-content -->
-							
-						</div><!-- service-box -->
-
-                    </div><!-- col -->
-					<div class="col-sm-3">
-
-                        <div class="service-box style-1">
-							
-							<h5>04</h5>
-							
-							<div class="service-box-content">
-								
-								<h5><a href="single-service.html">Coding</a></h5>
-								
-								<p>Imperdiet ac metus. In sit amet nulla id augue tempor dictum at duis.</p>
-								
-								<a href="single-service.html">Read more</a>
-								
-							</div><!-- service-box-content -->
-							
-						</div><!-- service-box -->
-
-                    </div><!-- col -->
-                </div><!-- row -->
-            </div><!-- container -->
-			
-			<div class="container parallax" id="section-1" data-stellar-background-ratio="0.1">
 				<div class="row">
-					<div class="col-sm-12">
-						
-						<h1 class="text-center no-margin-bottom">Take a <span class="text-default-color">look</span></h1>
-						<p class="text-center">Retta is Responsive on all devices</p>
-						
-					</div><!-- col -->
-				</div><!-- row -->
-			</div><!-- container -->
-			
-			<div class="container">
-				<div class="row">
-					<div class="col-sm-6">
-						
-						<p><img src="images/index/image-1.png" alt=""></p>
-						
-					</div><!-- col -->
-					<div class="col-sm-6">
-						
+					<div class="col-sm-4">
+						<div class="service-box style-1">
+							<i class="fas fa-hands-helping"></i>
+
+							<div class="service-box-content">
+								<h5>Trauma - Informed</h5>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-sm-4">
+						<div class="service-box style-1">
+							<i class="fas fa-circle-notch"></i>
+
+							<div class="service-box-content">
+								<h5>Holistic</h5>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-sm-4">
+						<div class="service-box style-1">
+							<i class="fas fa-flask"></i>
+
+							<div class="service-box-content">
+								<h5>Experiential</h5>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- vision -->
+			<ul class="text-boxes-list col-3">
+				<li>
+					<div class="text-box" style="background-image:url(img/backImg.jpg);">
+					</div>
+				</li>
+
+				<li>
+					<div class="text-box">
 						<div class="headline style-1">
-							
-							<p>Let us present you our world</p>
-							<h4>Our comunity is here just for you</h4>
-							
-						</div><!-- headline -->
-						
-						<p>Vestibulum hendrerit vehicula blandit. Donec lectus quam, semper a hendrerit sit amet, 
-						imperdiet ac metus. In sit amet nulla id augue tempor dictum. Morbi dui mauris, vulputate 
-						ut leo eget, ferme ntum lacinia mauris. Nunc sollicitudin ante ut diam dictum facilisis. 
-						Aliquam tempor sit amet justo vitae sollicitudin.</p>
-						
-						<br>
-						
-						<a class="btn btn-default btn-lg" href="#">Take the trip</a>
-						
-					</div><!-- col -->
-				</div><!-- row -->
-			</div><!-- container -->
-			
-			<section class="full-section" id="section-2">
+							<p>we love our work</p>
+							<h4>Our Vision</h4>
+						</div>
+
+						<p style="text-align:center">We believe in a family-centered and community based approach as a core value in both our personal and
+							professional lives.
+							<br><u>All</u> people fundamentally <b>deserve</b> to be treated with dignity and respect.
+							<br>
+							<br> We consider each person to be the expert in his or her own life and that healing is an
+							experience unique to the individual, viewing ourselves as collaborative team members.
+							<br>
+							<br> We believe in the profound ability of the human spirit to overcome suffering and challenges,
+							and that this ability is deeply rooted in our relationship to and connection with the world around
+							us.</p>
+
+					</div>
+				</li>
+
+				<li>
+					<div class="text-box" style="background-image:url(img/horse1.jpg);">
+					</div>
+				</li>
+			</ul>
+
+			<!-- about horses  -->
+			<section class="full-section dark-section" id="section-41">
+				<div class="full-section-overlay-color"></div>
+				<div class="multilayer-parallax">
+					<div class="parallax-layer" data-stellar-ratio="0.7" data-x="1%" data-y="10%"><img src="img/3.png" alt=""></div>
+					<div class="parallax-layer" data-stellar-ratio="1.3" data-x="-5%" data-y="40%"><img src="img/6.png" alt=""></div>
+					<div class="parallax-layer" data-stellar-ratio="1.5" data-x="20" data-y="50%"><img src="img/0.png" alt=""></div>
+					<div class="parallax-layer" data-stellar-ratio="0.6" data-x="65" data-y="0"><img src="img/2.png" alt=""></div>
+					<div class="parallax-layer" data-stellar-ratio="1.7" data-x="65" data-y="50"><img src="img/1.png" alt=""></div>
+					<div class="parallax-layer" data-stellar-ratio="1.4" data-x="80" data-y="70"><img src="img/5.png" alt=""></div>
+					<div class="parallax-layer" data-stellar-ratio="1.2" data-x="95" data-y="50"><img src="img/4.png" alt=""></div>
+					<div class="parallax-layer" data-stellar-ratio="0.8" data-x="80" data-y="30"><img src="img/7.png" alt=""></div>
+				</div>
+
 				<div class="full-section-container">
-					
 					<div class="container">
 						<div class="row">
 							<div class="col-sm-12">
+								<h3>Why horses?</h3>
+							</div>
+						</div>
 
-								<div class="headline style-2">
-									
-									<p>Take look at our</p>
-									<h3>Our Services</h3>
-									
-								</div><!-- headline -->
-
-							</div><!-- col -->
-						</div><!-- row -->
-					</div><!-- container -->
-					
-					<div class="container">
 						<div class="row">
-							<div class="col-sm-4">
+							<div class="col-sm-12" style="padding: 10px 55px 10px 70px;">
+								<p>Equine assisted counselling is an effective, research proven mental health intervention that utilizes horses in counselling sessions. It's been shown to lower blood pressure, heart rate, and alleviates stress.</p>
 
-								<div class="service-box style-2">
-									
-									<i class="retta-icon-chart45"></i>
-									
-									<div class="service-box-content">
-										
-										<h5><a href="single-service.html">Economic solutions for all our clients</a></h5>
-										
-										<p>Morbi ut dapibus dui. Sed ut iaculis elit, quis varius mauris. Integer ut 
-										ultricies orci, lobortis egestas sem.</p>
-										
-									</div><!-- service-box-content -->
-									
-								</div><!-- service-box -->
+								<p>Horses are non-judgmental, have no preconceived expectations or motives, and are highly effective at mirroring attitudes and behaviors of the humans with whom they are working. </p>
 
-							</div><!-- col -->
-							<div class="col-sm-4">
+								<b>Benefits of equine therapy sessions include:</b>
+								<ul>
+									<li class="wow flipInY" data-wow-duration="0.5s">Self-confidence</li>
+									<li class="wow flipInY" data-wow-duration="0.5s" data-wow-delay="0.25s">Increased positivity</li>
+									<li class="wow flipInY" data-wow-duration="0.5s" data-wow-delay="0.5s">Reduction in stress &amp; anxiety</li>
+									<li class="wow flipInY" data-wow-duration="0.5s" data-wow-delay="0.75s">Improved communication</li>
+									<li class="wow flipInY" data-wow-duration="0.5s" data-wow-delay="1s">Relationship building</li>
+									<li class="wow flipInY" data-wow-duration="0.5s" data-wow-delay="1.25s">Improved self awareness</li>
+									<li class="wow flipInY" data-wow-duration="0.5s" data-wow-delay="1.5s">Healthy assertiveness</li>
+									<li class="wow flipInY" data-wow-duration="0.5s" data-wow-delay="1.75s">Setting boundaries</li>
+									<li class="wow flipInY" data-wow-duration="0.5s" data-wow-delay="2s">Creative freedom - learning to be playful and have fun</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
 
-								<div class="service-box style-2">
-									
-									<i class="retta-icon-folder256"></i>
-									
-									<div class="service-box-content">
-										
-										<h5><a href="single-service.html">Studies of experimental asset markets</a></h5>
-										
-										<p>Sed ut iaculis elit, quis varius mauris. Integer ut ultricies orci, lobortis 
-										egestas sem. Duis non volutpat arcu.</p>
-										
-									</div><!-- service-box-content -->
-									
-								</div><!-- service-box -->
+			<!-- services -->
+			<!-- in office -->
+			<section class="full-section half-image" style="padding:50px 0; margin-bottom:0;">
+				<div class="half-image-left parallax" data-stellar-background-ratio="0.1" style="background-image:url(img/half1.jpg);">
+					<img src="img/half1.jpg" alt="individual">
+				</div>
 
-							</div><!-- col -->
-							<div class="col-sm-4">
-
-								<div class="service-box style-2">
-									
-									<i class="retta-icon-bulb19"></i>
-									
-									<div class="service-box-content">
-										
-										<h5><a href="single-service.html">Protection against unforeseen personal events</a></h5>
-										
-										<p>Maecenas condimentum turpis augue, eget porta massa facilisis eu. In hac habitasse 
-										platea dictumst magna nec.</p>
-										
-									</div><!-- service-box-content -->
-									
-								</div><!-- service-box -->
-
-							</div><!-- col -->
-						</div><!-- row -->
-					</div><!-- container -->
-					
-					<div class="container">
+				<div class="full-section-container">
+					<div class="container-fluid">
 						<div class="row">
-							<div class="col-sm-4">
+							<div class="col-md-offset-7 col-md-4">
+								<div class="headline style-1">
+									<p>Services</p>
+									<h3>Individual Counselling</h3>
+								</div>
 
-								<div class="service-box style-2">
-									
-									<i class="retta-icon-real-estate12"></i>
-									
-									<div class="service-box-content">
-										
-										<h5><a href="single-service.html">Transference of family wealth across generations</a></h5>
-										
-										<p>Curabitur aliquet suscipit tincidunt. Duis quis urna justo. Vestibulum tellus velit, 
-										mattis ut diam sed pharetra.</p>
-										
-									</div><!-- service-box-content -->
-									
-								</div><!-- service-box -->
+								<p>Misconceptions abound when it comes to mental health counselling! People might think they have to be "crazy" to see a therapist or that something is problematic about themselves as individuals.</p>
 
-							</div><!-- col -->
-							<div class="col-sm-4">
+								<p>Our bodies and emotions constantly respond to daily life - these are signs of internal strength and an incredible resilience to survive and thrive, despite our challenges!​</p>
 
-								<div class="service-box style-2">
-									
-									<i class="retta-icon-bag45"></i>
-									
-									<div class="service-box-content">
-										
-										<h5><a href="single-service.html">Planning the secure financial future</a></h5>
-										
-										<p>Nullam tristique fermentum arcu, id tristique augue. Ut sit amet lobortis ante, 
-										eu imperdiet metus lobortis.</p>
-										
-									</div><!-- service-box-content -->
-									
-								</div><!-- service-box -->
+								<p>Counselling is a safe place to identify how your body might be responding to various life events, and then collaboratively work together. This is about your own personal best.</p>
 
-							</div><!-- col -->
-							<div class="col-sm-4">
+								<p>All in-office and equine assisted sessions are private and confidential, according to the Code of Ethics as laid out by the Canadian Counselling and Psychotherapy Association.</p>
 
-								<div class="service-box style-2">
-									
-									<i class="retta-icon-balance6"></i>
-									
-									<div class="service-box-content">
-										
-										<h5><a href="single-service.html">Investment and accumulation goals</a></h5>
-										
-										<p>Vivamus tristique, tellus a sodales dolor sit, orci ligula dictum diam, et 
-										varius nunc magna sed diam.</p>
-										
-									</div><!-- service-box-content -->
-									
-								</div><!-- service-box -->
+								<br>
 
-							</div><!-- col -->
-						</div><!-- row -->
-					</div><!-- container -->
-					
-				</div><!-- full-section-container -->
-			</section><!-- full-section -->
-			
-			<section class="full-section dark-section parallax" id="section-3" data-stellar-background-ratio="0.1">
-			
+								<a class="btn btn-default" href="#pricing">Learn more</a>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</section>
+			<!-- Equine -->
+			<section class="full-section dark-section half-image" style="padding:50px 0;">
+				<div class="full-section-container">
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col-md-offset-1 col-md-4">
+								<div class="headline style-1">
+									<p>Services</p>
+									<h3>Equine Assisted Counselling</h3>
+								</div>
+
+								<p>Equine Assisted Therapy is a team approach using a mental health therapist, equine specialist, and one to a small herd of horses. Each team member has an important role in an equine therapy session.  </p>
+
+								<p>Horses are prey animals, and, like those who have been through traumatic events or experience high stress environments, rely on their heightened senses for survival.  They react to and mirror the emotions of visitors directly, without words.  Horses respond negatively to negative emotions.  They respond positively to positive emotions, and they have no ulterior motives. Horses are therapeutic and interactive tools that speed up the therapy process substantially. </p>
+
+								<p>The equine specialist is there to interpret the horse’s body language, such as flicking ears, wide eyes, or a dropped shoulder that will provide feedback for the mental health therapist and the client. The therapist's role is to assist clients in assessing how this information connects to their own emotions and thought processes, and how they can utilize this to create change, improve their quality of life, or process difficult experiences, among many other things.</p>
+
+								<p>Equine therapy sessions are groundwork-based only. They are very interactive and hands on, however, there is no riding. They are not horsemanship lessons! Equine therapy is a recognized therapeutic intervention for optimal mental health and wellness.</p>
+
+								<br>
+
+								<a class="btn btn-white" href="#">Learn more</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="half-image-right parallax" data-stellar-background-ratio="0.1" style="background-image:url(img/half2.jpg);">
+					<img src="img/half2.jpg" alt="horse">
+				</div>
+			</section>
+
+			<!-- Items  -->
+			<h3>We can help <i>you</i> with...</h3>
+			<div class="container cardBox">
+				<div class="row">
+					<div class="wow fadeInLeft card col-sm-3" data-wow-duration="0.5s">
+						<div class="inner" style="background-image: url(img/c0.png);">
+							Depression
+						</div>
+					</div>
+
+					<div class="wow fadeInLeft card col-sm-3" data-wow-duration="0.5s" data-wow-delay="0.25s">
+						<div class="inner" style="background-image: url(img/c1.png);">
+							Stress
+						</div>
+					</div>
+
+					<div class="card wow fadeInLeft col-sm-3" data-wow-duration="0.5s" data-wow-delay="0.5s">
+						<div class="inner" style="background-image: url(img/c2.png);">
+							Anxiety
+						</div>
+					</div>
+
+					<div class="card wow fadeInLeft col-sm-3" data-wow-duration="0.5s" data-wow-delay="0.75s">
+						<div class="inner" style="background-image: url(img/c3.png);">
+							Self-Esteem
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="wow fadeInRight card col-sm-3" data-wow-duration="0.5s">
+						<div class="inner" style="background-image: url(img/c4.png);">
+							Anger
+						</div>
+					</div>
+
+					<div class="wow fadeInRight card col-sm-3" data-wow-duration="0.5s" data-wow-delay="0.25s">
+						<div class="inner" style="background-image: url(img/c5.png);">
+							Relationships
+						</div>
+					</div>
+
+					<div class="card wow fadeInRight col-sm-3" data-wow-duration="0.5s" data-wow-delay="0.5s">
+						<div class="inner" style="background-image: url(img/c6.png);">
+							Grief
+						</div>
+					</div>
+
+					<div class="card wow fadeInRight col-sm-3" data-wow-duration="0.5s" data-wow-delay="0.75s">
+						<div class="inner" style="background-image: url(img/c7.png);">
+							...and more
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Facility -->
+			<section class="full-section dark-section parallax" data-stellar-background-ratio="0.1" style="padding:30px 0 30px; background-image:url(img/location.jpg); margin:20px 0 0 0;">
 				<div class="full-section-overlay-color"></div>
-			
+
 				<div class="full-section-container">
-					
 					<div class="container">
 						<div class="row">
-							<div class="col-sm-6">
+							<div class="col-sm-12">
+									<h3>Our Facility</h3>
+							</div>
+						</div>
 
-								<h2>Beautiful pages <br class="hidden-xs hidden-sm"> a pleasure to look at</h2>
-								
-								<p>Donec aliquam lorem quis nibh viverra vehicula. Donec pharetra lacus in dolor 
-								ultricies mollis eget sit amet ipsum. Suspendisse eu imperdiet tellus, non tempus 
-								tortor. Duis ultricies eu nunc non placerat. Praesent congue quam ipsum, at consequat 
-								felis eleifend id. Aliquam pellentesque sapien at mollis sodales.</p>
-								
-								<br>
-								
-								<a class="btn btn-default btn-lg" href="#">Take the trip</a>
-
-							</div><!-- col -->
-							<div class="col-sm-6">
-								
-								<div class="row">
-									<div class="col-sm-6">
-										
-										<div class="odometer-container">
-						
-											<i class="retta-icon-profile29"></i>
-											<div class="odometer" data-value="274"></div>
-											<div class="odometer-details">Happy clients</div>
-										
-										</div><!--odometer-container -->
-										
-									</div><!-- col -->
-									<div class="col-sm-6">
-										
-										<div class="odometer-container">
-						
-											<i class="retta-icon-book244"></i>
-											<div class="odometer" data-value="1431"></div>
-											<div class="odometer-details">Projects</div>
-										
-										</div><!--odometer-container -->
-										
-									</div><!-- col -->
-								</div><!-- row -->
-								
-								<div class="row">
-									<div class="col-sm-6">
-										
-										<div class="odometer-container">
-						
-											<i class="retta-icon-hand226"></i>
-											<div class="odometer" data-value="34" data-symbol-after="k"></div>
-											<div class="odometer-details">Followers</div>
-										
-										</div><!--odometer-container -->
-										
-									</div><!-- col -->
-									<div class="col-sm-6">
-										
-										<div class="odometer-container">
-						
-											<i class="retta-icon-coffee-shop117"></i>
-											<div class="odometer" data-value="53"></div>
-											<div class="odometer-details">Cups of coffes</div>
-										
-										</div><!--odometer-container -->
-										
-									</div><!-- col -->
-								</div><!-- row -->
-								
-							</div><!-- col -->
-						</div><!-- row -->
-					</div><!-- container -->
-			
-				</div><!-- full-section-container -->
-			</section><!-- full-section -->
-			
-			<div class="container">
-				<div class="row">
-					<div class="col-sm-12">
-
-						<div class="headline style-2">
-							
-							<p>Take look at our</p>
-							<h3>The News</h3>
-							
-						</div><!-- headline -->
-
-					</div><!-- col -->
-				</div><!-- row -->
-			</div><!-- container -->
-			
-			<div class="container">
-				<div class="row">
-					<div class="col-sm-4">
-						
-						<div class="blog-article">
-						
-							<div class="blog-article-thumbnail">
-								
-								<a class="date" href="#"><small>Feb</small> 10 <small>2019</small></a>
-								<a href="blog-post-right-sidebar.html"><img src="images/blog/image-1.jpg" alt=""></a>
-							
-							</div><!-- blog-article-thumbnail -->
-							
-							<h5 class="blog-article-title"><a href="blog-post-right-sidebar.html">How to succed in this market</a></h5>
-								
-							<div class="blog-article-details">
-								by <a class="author" href="#">Admin</a>
-								in <a class="category" href="#">Business</a>						
-							</div><!-- blog-article-details -->
-							
-							<div class="blog-article-content">
-								
-								<p>Donec aliquam lorem quis nibh viverra vehicula. Donec pharetra lacus in dolor 
-								ultricies mollis eget sit amet ipsum. Suspendisse eu imperdiet tellus, non tempus 
-								tortor. Duis ultricies eu nunc non placerat. Praesent congue quam ipsum.</p>
-								
-								<a href="blog-post-right-sidebar.html">Read More</a>
-								
-							</div><!-- blog-article-content -->													
-							
-						</div><!-- blog-article -->
-						
-					</div><!-- col -->
-					<div class="col-sm-4">
-						
-						<div class="blog-article">
-						
-							<div class="blog-article-thumbnail">
-								
-								<a class="date" href="#"><small>Feb</small> 06 <small>2019</small></a>
-								<a href="blog-post-right-sidebar.html"><img src="images/blog/image-2.jpg" alt=""></a>
-							
-							</div><!-- blog-article-thumbnail -->
-							
-							<h5 class="blog-article-title"><a href="blog-post-right-sidebar.html">Make a good investment</a></h5>
-								
-							<div class="blog-article-details">
-								by <a class="author" href="#">Admin</a>
-								in <a class="category" href="#">Business</a>						
-							</div><!-- blog-article-details -->
-							
-							<div class="blog-article-content">
-								
-								<p>Maecenas sodales dolor eu dolor iaculis lobortis. Vestibulum ultrices augue eu 
-								ultricies ornare. Cum sociis natoque penatibus et magnis dis parturient montes, 
-								nascetur ridiculus mus. Nulla porta condimentum ipsum, sed vestibulum felis.</p>
-								
-								<a href="blog-post-right-sidebar.html">Read More</a>
-								
-							</div><!-- blog-article-content -->													
-							
-						</div><!-- blog-article -->
-						
-					</div><!-- col -->
-					<div class="col-sm-4">
-						
-						<div class="blog-article">
-						
-							<div class="blog-article-thumbnail">
-								
-								<a class="date" href="#"><small>Feb</small> 04 <small>2019</small></a>
-								<a href="blog-post-right-sidebar.html"><img src="images/blog/image-3.jpg" alt=""></a>
-							
-							</div><!-- blog-article-thumbnail -->
-							
-							<h5 class="blog-article-title"><a href="blog-post-right-sidebar.html">A guide to a good conversation</a></h5>
-								
-							<div class="blog-article-details">
-								by <a class="author" href="#">Admin</a>
-								in <a class="category" href="#">Business</a>						
-							</div><!-- blog-article-details -->
-							
-							<div class="blog-article-content">
-								
-								<p>Praesent et orci tempus, ultrices lacus viverra, volutpat metus. Cras eu vehicula 
-								eros. Vivamus pellentesque orci mi, ut egestas magna sagittis non. Etiam lobortis sapien 
-								orci, non pharetra nisl finibus id. Curabitur finibus ante felis.</p>
-								
-								<a href="blog-post-right-sidebar.html">Read More</a>
-								
-							</div><!-- blog-article-content -->													
-							
-						</div><!-- blog-article -->
-						
-					</div><!-- col -->
-				</div><!-- row -->
-			</div><!-- container -->
-			
-			<section class="full-section" id="section-4">
-				<div class="full-section-container">
-					
-					<div class="container">
 						<div class="row">
-							<div class="col-md-4 col-sm-6">
-								
-								<h2>Request a <br> <span class="text-default-color">call back</span></h2>
-								
-								<p>Praesent pretium posuere enim, in imperdiet nibh convallis sit amet. Curabitur 
-								dictum odio velit, eu fringilla urna dictum consequat. Nam eget congue odio, vitae 
-								fringilla nulla.</p>
-								
-							</div><!-- col -->
-							<div class="col-md-4 col-sm-6">
-								
-								<br>
-							
-								<form id="contact-form" name="contact-form" method="post" action="assets/php/send.php">
-									<fieldset>
+							<div class="col-sm-12">
+								<p>Antares Counselling and Equine Assisted Therapy is located at the Kamloops Therapeutic Riding Association, just east of the Kamloops Airport on the banks of the Thompson River. </p>
 
-										<div id="alert-area"></div>
-										
-										<input class="col-xs-12" id="name" type="text" name="name" placeholder="name">
-									
-										<input class="col-xs-12" id="email" type="email" name="email" placeholder="e-mail">
+								<p>The facility includes:</p>
+								<ul>
+									<li class="wow slideInLeft" data-wow-duration="0.5s">a private counselling office</li>
+									<li class="wow slideInLeft" data-wow-duration="0.5s" data-wow-delay="0.25s">2 confidential therapy paddocks adjacent to the office</li>
+									<li class="wow slideInLeft" data-wow-duration="0.5s" data-wow-delay="0.5s">2 large arenas for group sessions</li>
+									<li class="wow slideInLeft" data-wow-duration="0.5s" data-wow-delay="0.75s">Enjoyment of the barn area, herd of therapy goats, and a few barn cats that live at the facility!</li>
+								</ul>
 
-										<textarea class="col-xs-12" id="message" name="message" rows="9" cols="25" placeholder="message"></textarea>
+								<small>* Visitor tours are welcome - please contact Karen to set up a time to drop by</small>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
 
-										<button class="btn btn-default btn-lg pull-right" id="submit" type="submit" name="submit" value="">Send request</button>
-
-									</fieldset>
-								</form>
-								
-							</div><!-- col -->
-						</div><!-- row -->
-					</div><!-- container -->
-					
-				</div><!-- full-section-container -->
-			</section><!-- full-section -->
-			
-			<div class="container">
+			<!-- Our team -->
+			<div class="container" id="meetOurTeam">
 				<div class="row">
 					<div class="col-sm-12">
-						
-						<div class="owl-carousel logos-slider">
-							<div class="item"><a target="_blank" href="https://themeforest.net/item/materia-consortium-multiuse-pack-html5-css3-template/16814868" style="background-image:url(images/logos/logo-7.png);"></a></div>
-							<div class="item"><a target="_blank" href="http://themeforest.net/item/kors-multiuse-pack-business-template/16255062" style="background-image:url(images/logos/logo-6.png);"></a></div>
-							<div class="item"><a target="_blank" href="http://themeforest.net/item/startup-basic-business-html5-css3-template/15365005" style="background-image:url(images/logos/logo-2.png);"></a></div>
-							<div class="item"><a target="_blank" href="http://themeforest.net/item/bronx-multipurpose-business-and-agency-html5-template/15970370" style="background-image:url(images/logos/logo-5.png);"></a></div>
-							<div class="item"><a target="_blank" href="http://themeforest.net/item/the-supreme-luxury-hotel-html5-css3-template/15805664" style="background-image:url(images/logos/logo-4.png);"></a></div>
-							<div class="item"><a target="_blank" href="http://themeforest.net/item/boiler-creative-agency-html5-css3-template/15605845" style="background-image:url(images/logos/logo-3.png);"></a></div>
-							<div class="item"><a target="_blank" href="http://themeforest.net/item/oslo-creative-agency-portfolio-html5-template/14976568" style="background-image:url(images/logos/logo-1.png);"></a></div>
-						</div><!-- logos-slider -->
-						
-					</div><!-- col -->
-				</div><!-- row -->
-			</div><!-- container -->
-			
-		</div><!-- PAGE CONTENT -->
-		
-		
-		<!-- FOOTER -->
-		<footer id="footer-container">
-			
-			<div id="footer-top">
-			
+						<div class="headline style-2" style="margin: 60px 0 20px 0;">
+							<p>Meet our</p>
+							<h4>Team</h4>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-sm-4">
+						<div class="about-me wow fadeIn" data-wow-duration="0.5s">
+							<div class="about-me-thumbnail">
+								<img src="img/karen1.jpg" alt="Karen">
+
+								<div class="about-me-hover">
+									<a class="fancybox" data-fancybox="about" href="img/karen1.jpg"><span>+</span></a>
+								</div>
+							</div>
+
+							<h5>Karen Lara</h5>
+
+							<p>MC, CCC</p>
+							<p>Mental Health Therapist</p>
+							<p>EAGALA certified</p>
+
+							<div class="aboutMeDesc">Karen holds a BA Psychology (honours) and Masters of Counselling
+								Psychology degree. She is a registered therapist and is certified under the Equine
+								Assisted Growth and Learning Association as a equine mental health professional. Karen
+								focuses her clinical practice in the area of complex trauma and is passionate about
+								body-centered modalities for emotional growth and healing, particularly through horses.
+							</div>
+						</div>
+					</div>
+
+					<div class="col-sm-4">
+						<div class="about-me wow fadeIn" data-wow-duration="0.5s" data-wow-delay="0.25s">
+							<div class="about-me-thumbnail">
+								<img src="img/ashley.jpg" alt="Ashley">
+
+								<div class="about-me-hover">
+									<a class="fancybox" data-fancybox="about" href="img/ashley.jpg"><span>+</span></a>
+								</div>
+							</div>
+
+							<h5>Ashley Sudds</h5>
+							<p>CTRBI CanTRA Instructor</p>
+							<p>Equine Specialist</p>
+
+							<div class="aboutMeDesc">Ashley is working towards her English Rider Levels through Equine
+								Canada and she is a certified CTRBI CanTRA Basic Instructor. Ashley is also a certified
+								PATH Intl. Registered Therapeutic Riding Instructor and would like to work towards her
+								EAGALA Certified Equine Specialist.</div>
+						</div>
+					</div>
+
+					<div class="col-sm-4">
+						<div class="about-me wow fadeIn" data-wow-duration="0.5s" data-wow-delay="0.5s">
+							<div class="about-me-thumbnail">
+								<img src="img/cherise1.jpg" alt="Cherise">
+
+								<div class="about-me-hover">
+									<a class="fancybox" data-fancybox="about" href="img/cherise.jpg"><span>+</span></a>
+								</div>
+							</div>
+
+							<h5>Cherise Avril</h5>
+							<p>CTRBI CanTRA Instructor</p>
+							<p>Equine Specialist</p>
+
+							<div class="aboutMeDesc">Cherise Avril has a certification in Community Mental Health, is a
+								CanTRA certified Intermediate Instructor, teaches part time at KTRA. Cherise is also
+								studying for her Real Estate License. She has always been involved with horses,
+								including starting young horses, showing in the hunter/jumpers, and for the last few
+								years enjoying the dressage world.</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Partners -->
+			<div class="container" id="partners">
+                <div class="row">
+                    <div class="col-sm-12">
+						<div class="headline style-2" style="margin: 60px 0 20px 0;">
+							<p>Meet our</p>
+							<h3>Partners</h3>
+						</div>
+                    </div>
+				</div>
+
+				<div class="row">
+					<div class="col-sm-offset-1 col-sm-10">
+						<div class="owl-carousel testimonials-slider">
+							<div class="item">
+								<div class="testimonial">
+										<p>Specialized Services for Emergency Workers
+											Available to all Emergency Workers and their families, we aim to close the gap between Mental Health Clinicians and Emergency Workers. Our services are designed to provide access to Occupationally Aware Clinicians who have completed specialized training.
+											​</p>
+
+									<img src="img/firstresponder.png" alt="KTRA">
+
+									<h6>
+										First Responder Health<br>
+										<span><a href="https://firstresponderhealth.org/" target="_blank">firstresponderhealth.org</a></span>
+									</h6>
+								</div>
+							</div>
+
+							<div class="item">
+								<div class="testimonial">
+										<p>Kamloops Therapeutic Riding Association (KTRA) is a registered, non-profit charitable organization that has been providing therapeutic riding since 1988. KTRA is a place that has provided hundreds of children and adults with disabilities the opportunity to enhance their physical, psychological, social and recreational benefits through the use of horseback riding. It is only through continued sponsorship &amp; our dedicated volunteers that we can continue providing these life-enhancing opportunities to our community.</p>
+
+									<img src="img/ktra.png" alt="KTRA">
+
+									<h6>
+										Kamloops Therapeutic Riding Association<br>
+										<span><a href="https://www.ktra.ca/" target="_blank">ktra.ca</a></span>
+									</h6>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+            </div>
+
+			<!-- Pricing plans -->
+			<div class="container" id="pricing">
+                <div class="row">
+                    <div class="col-sm-12">
+						<h3>Pricing plans</h3>
+                    </div>
+				</div>
+
+				<div class="row">
+					<div class="col-sm-4">
+						<div class="price-plan wow flipInX" data-wow-duration="0.5s">
+							<div class="price-plan-header">
+								<h5>Private In-office Counselling</h5>
+								<h1 class="price"><span>$</span>125<small>/hour</small></h1>
+							</div>
+
+                            <ul>
+								 <li>Individuals</li>
+								 <li>Couples</li>
+								 <li>Families</li>
+                            </ul>
+                        </div>
+					</div>
+
+					<div class="col-sm-4">
+						<div class="price-plan wow flipInX" data-wow-duration="0.5s" data-wow-delay="0.25s">
+							<div class="price-plan-header">
+								<h5>Equine Assisted Counselling</h5>
+								<h1 class="price"><span>$</span>150<small>/hour</small></h1>
+							</div>
+
+                            <ul>
+								<li>Individual session</li>
+                            </ul>
+                        </div>
+					</div>
+
+					<div class="col-sm-4">
+						<div class="price-plan wow flipInX" data-wow-duration="0.5s" data-wow-delay="0.5s">
+							<div class="price-plan-header">
+								<h5>Equine Assisted Counselling</h5>
+								<h1 class="price"><span>$</span>135<small>/person</small></h1>
+							</div>
+
+                            <ul>
+                             	<li>Group session (3+ people)</li>
+                             	<li>1.5 hours</li>
+                            </ul>
+                        </div>
+					</div>
+				</div>
+            </div>
+
+			<!-- Contact form -->
+			<div id="contactUs">
 				<div class="container">
 					<div class="row">
-						<div class="col-sm-3">
-							
+						<div class="col-sm-12">
+							<div style="margin: 50px 0 0 0;" class="headline style-2">
+								<p>Contact Form</p>
+								<h4>SCHEDULE A SESSION</h4>
+							</div>
+						</div>
+					</div>
+
+					<p>For <b>new clients</b>, please contact Antares Counselling via phone or email to schedule a
+						session.
+						<br> <b>Returning clients</b> may book through our online booking system.
+						<br>Tours of the facility are available. All inquiries are welcome!</p>
+
+					<div class="row">
+						<div class="col-sm-12">
+							<form id="contact-form" name="contact-form" method="post" action="php/send.php">
+								<fieldset>
+									<div id="alert-area"></div>
+
+									<input class="col-xs-12" id="name" type="text" name="name" placeholder="Name*">
+
+									<input class="col-xs-12" id="email" type="email" name="email" placeholder="E-mail*">
+
+									<input class="col-xs-12" id="subject" type="text" name="subject"
+										placeholder="Subject*">
+
+									<textarea class="col-xs-12" id="message" name="message" rows="9" cols="25"
+										placeholder="Message*"></textarea>
+
+									<button class="btn btn-default btn-lg" id="submit" type="submit" name="submit"
+										value="">Send message</button>
+								</fieldset>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- FOOTER -->
+		<footer id="footer-container">
+			<div id="footer-top">
+				<!-- key info block -->
+				<div class="container">
+					<div class="row">
+						<!-- about -->
+						<div class="col-sm-8">
 							<div class="widget widget-text">
-							
-								<h5 class="widget-title">About Retta</h5>
-								
+								<h5 class="widget-title">About Us</h5>
+
 								<div>
-								
-									<p>Donec aliquam lorem quis nibh viverra sed vehicula. Donec duis pharetra ut lacus in dolor ultricies 
-									mollis eget sit amet ipsum. Suspen disse eu imper diet tellus non tempus.</p>
-									
+									<p>Antares Counselling and Equine Assisted Therapy takes a holistic (mind, body,
+										spirit) and trauma-informed approach to counselling health care. All therapeutic
+										support offered prioritizes respect, and with consideration to the dignity of
+										all individuals.</p>
+
 									<br>
-									
-									<a class="btn btn-default" href="#">Purchase Retta</a>
-								
+
+									<a class="btn btn-default" href="#">Book now</a>
 								</div>
-								
-							</div><!-- widget-text -->
-							
-						</div><!-- col -->
-						<div class="col-sm-3">
-							
-							<div class="widget widget-categories">
-							
-								<h5 class="widget-title">Links</h5>
-								
-								<ul>
-									<li><a href="#">Our Syndicate</a></li>
-									<li><a href="#">Trading &amp; Commerce</a></li>
-									<li><a href="#">Banking &amp; Private Equity</a></li>
-									<li><a href="#">Industrial &amp; Factory </a></li>
-									<li><a href="#">Financial Solutions</a></li>
-								</ul>
-								
-							</div><!-- widget-categories -->
-							
-						</div><!-- col -->
-						<div class="col-sm-3">
-							
-							<div class="widget widget-recent-posts">
-							
-								<h5 class="widget-title">News</h5>
-								
-								<ul>
-									<li>
-										<a class="post-title" href="#">Why is this industry on the rise in this instable market?</a>
-										<p class="post-details">
-											by <a href="#">Jane Smith</a>
-											<a href="#">Jun 30</a>
-										</p>
-									</li>
-									<li>
-										<a class="post-title" href="#">Make a good investment with your money this year</a>
-										<p class="post-details">
-											by <a href="#">Jane Smith</a>
-											<a href="#">Jun 27</a>
-										</p>
-									</li>
-								</ul>
-								
-							</div><!-- widget-recent-posts -->
-							
-						</div><!-- col -->
-						<div class="col-sm-3">
-							
+							</div>
+						</div>
+
+						<!-- contact information -->
+						<div class="col-sm-4">
 							<div class="widget widget-contact">
-							
 								<h5 class="widget-title">Contact</h5>
-								
+
 								<ul>
+									<!-- addresses -->
 									<li>
 										<i class="retta-icon-location67"></i>
-										3007 Sarah Drive <br> Franklin, LA 70538
-									</li>
-									<li>    
-										<i class="retta-icon-active5"></i>
-										337-413-9538
-										<small>mon-fri , 08.am - 17.pm</small>
+										Sun Peaks Health Centre <br> 3115 Creekside Way, Sun Peaks, BC
 									</li>
 									<li>
+										<i class="retta-icon-location67"></i>
+										Kamloops Therapeutic Riding Assoc <br> 730 Crestline St. Kamloops, BC
+									</li>
+									<!-- phone -->
+									<li>
+										<i class="retta-icon-active5"></i>
+										250-299-8543
+									</li>
+									<!-- email -->
+									<li>
 										<i class="retta-icon-message31"></i>
-										<a href="mailto:info@vertiqalteam.com">info@vertiqalteam.com</a>
-										<small>We reply in 24 hrs</small>
+										<a href="mailto:info@antarescounselling.com">info@antarescounselling.com</a>
 									</li>
 								</ul>
-								
-							</div><!-- widget-contact -->
-							
-						</div><!-- col -->
-					</div><!-- row -->
-				</div><!-- container -->
-			
-			</div><!-- FOOTER TOP -->
-			
-			<div id="footer-middle" class="parallax" data-stellar-background-ratio="0.1" style="background-image:url(images/backgrounds/bg-footer-1.jpg);">
-			
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- quote -->
+			<div id="footer-middle" class="shadowBox"
+				style="background-image:url(img/footerImg.jpg);background-size: cover;">
 				<div class="footer-middle-overlay"></div>
-				
 				<div class="container">
 					<div class="row">
 						<div class="col-md-offset-2 col-md-8">
-							
 							<div class="widget widget-newsletter">
-								
-								<h5 class="widget-title">Subscribe to our newsletter</h5>
-								
-								<form name="newsletter" method="post" action="#">
-									<fieldset>
-										<input id="newsletter-email" type="email" name="email" placeholder="E-mail address">
-										<button type="submit" name="submit" value="">Subscribe</button>
-									</fieldset>
-								</form>
-								
-								<p>Curabitur elit turpis, maximus quis ullamcorper sed, maximus eu neque. <br class="hidden-xs">
-								Cras ultrices erat nec auctor blandit.</p>
-								
-							</div><!-- widget-newsletter -->
-							
-						</div><!-- col -->
-					</div><!-- row -->
-				</div><!-- container -->
-				
-			</div><!-- FOOTER MIDDLE -->
-			
+								<blockquote class="widget-title">
+									<h4>"Health is a state of complete <strong>physical, mental and social
+											well-being</strong> and not
+										merely the absence of disease or infirmity."</h4>
+								</blockquote>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
 			<div id="footer-bottom">
-				
 				<div class="container">
 					<div class="row">
+						<!-- logo -->
 						<div class="col-sm-3 col-md-4">
-							
 							<div class="widget widget-text">
-								
 								<div>
-									
-									<img src="assets/images/footer-logo-white.png" alt="">
-								
+									<img style="margin-top: 10px;" class="logoImg" src="img/logo.png" alt="logo">
 								</div>
-								
-							</div><!-- widget-text -->
-							
-						</div><!-- col -->
+							</div>
+						</div>
+
+						<!-- year and copyright -->
 						<div class="col-sm-5 col-md-4">
-							
 							<div class="widget widget-text">
-								
 								<div>
-									
-									<p class="copyright text-center">2019 Vertiqal &copy; All Rights Reserved</p>
-								
+									<p id="yearId" class="copyright text-center">
+										<script>
+											let year = new Date().getFullYear();
+											document.getElementById("yearId").innerHTML = year + " &copy; All Rights Reserved"
+										</script>
+									</p>
 								</div>
-								
-							</div><!-- widget-text -->
-							
-						</div><!-- col -->
+							</div>
+						</div>
+
 						<div class="col-sm-4">
-							
+							<!-- Social media links -->
 							<div class="widget widget-social">
-							
 								<div class="social-media">
-								
-									<a class="pinterest" href="#"><i class="fa fa-pinterest"></i></a>
-									<a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a>
-									<a class="instagram" href="#"><i class="fa fa-instagram"></i></a>                                    
-									<a class="facebook" href="#"><i class="fa fa-facebook"></i></a>
-									<a class="twitter" href="#"><i class="fa fa-twitter"></i></a>
-								
-								</div><!-- social-media -->    
-							
-							</div><!-- widget-social -->
-							
-						</div><!-- col -->
-					</div><!-- row -->
-				</div><!-- container -->
-				
-			</div><!-- FOOTER BOTTOM -->
-			
-		</footer><!-- FOOTER CONTAINER -->
-		
-	</div><!-- MAIN CONTAINER -->
-	
-	
+									<a class="instagram" href="https://www.instagram.com/antarescounselling/"
+										target="_blank"><i class="fab fa-instagram"></i></a>
+									<a class="facebook" href="https://www.facebook.com/antarescounselling/"
+										target="_blank"><i class="fab fa-facebook-f"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+
 	<!-- SCROLL UP -->
 	<a id="scroll-up"><i class="fa fa-angle-up"></i></a>
-	
-	
+
+	<!-- Scripts -->
+
 	<!-- jQUERY -->
-	<script src="assets/plugins/jquery/jquery-2.2.4.min.js"></script>
-	
+	<script src="plugins/jquery/jquery-2.2.4.min.js"></script>
+
 	<!-- BOOTSTRAP JS -->
-	<script src="assets/bootstrap/js/bootstrap.min.js"></script>
-	
-	<!-- VIEWPORT -->
-	<script src="assets/plugins/viewport/jquery.viewport.js"></script>
-	
+	<script src="plugins/bootstrap/js/bootstrap.min.js"></script>
+
 	<!-- MENU -->
-	<script src="assets/plugins/menu/hoverIntent.js"></script>
-	<script src="assets/plugins/menu/superfish.js"></script>
-	
-	<!-- FANCYBOX -->
-	<script src="assets/plugins/fancybox/jquery.fancybox.min.js"></script>
-	
-	<!-- REVOLUTION SLIDER  -->
-	<script src="assets/plugins/revolutionslider/js/jquery.themepunch.tools.min.js"></script>
-	<script src="assets/plugins/revolutionslider/js/jquery.themepunch.revolution.min.js"></script>
-	<script src="assets/plugins/revolutionslider/js/extensions/revolution.extension.actions.min.js"></script>
-	<script src="assets/plugins/revolutionslider/js/extensions/revolution.extension.carousel.min.js"></script>
-	<script src="assets/plugins/revolutionslider/js/extensions/revolution.extension.kenburn.min.js"></script>
-	<script src="assets/plugins/revolutionslider/js/extensions/revolution.extension.layeranimation.min.js"></script>
-	<script src="assets/plugins/revolutionslider/js/extensions/revolution.extension.migration.min.js"></script>
-	<script src="assets/plugins/revolutionslider/js/extensions/revolution.extension.navigation.min.js"></script>
-	<script src="assets/plugins/revolutionslider/js/extensions/revolution.extension.parallax.min.js"></script>
-	<script src="assets/plugins/revolutionslider/js/extensions/revolution.extension.slideanims.min.js"></script>
-	<script src="assets/plugins/revolutionslider/js/extensions/revolution.extension.video.min.js"></script>
-	
-	<!-- OWL Carousel -->
-	<script src="assets/plugins/owl-carousel/owl.carousel.min.js"></script>
-	
-	<!-- WATERWHEELCAROUSEL -->
-	<script src="assets/plugins/waterwheelcarousel/jquery.waterwheelcarousel.min.js"></script>
-	
+	<script src="plugins/menu/hoverIntent.js"></script>
+	<script src="plugins/menu/superfish.js"></script>
+
 	<!-- PARALLAX -->
-	<script src="assets/plugins/parallax/jquery.stellar.min.js"></script>
-	
-	<!-- ISOTOPE -->
-	<script src="assets/plugins/isotope/imagesloaded.pkgd.min.js"></script>
-	<script src="assets/plugins/isotope/isotope.pkgd.min.js"></script>
-	
+	<script src="plugins/parallax/jquery.stellar.min.js"></script>
+
+	<!-- OWL Carousel -->
+	<script src="plugins/owl-carousel/owl.carousel.min.js"></script>
+
+	<!-- VIEWPORT -->
+	<script src="plugins/viewport/jquery.viewport.js"></script>
+
+	<!-- REVOLUTION SLIDER  -->
+	<script src="plugins/revolutionslider/js/jquery.themepunch.tools.min.js"></script>
+	<script src="plugins/revolutionslider/js/jquery.themepunch.revolution.min.js"></script>
+	<script src="plugins/revolutionslider/js/extensions/revolution.extension.actions.min.js"></script>
+	<script src="plugins/revolutionslider/js/extensions/revolution.extension.carousel.min.js"></script>
+	<script src="plugins/revolutionslider/js/extensions/revolution.extension.kenburn.min.js"></script>
+	<script src="plugins/revolutionslider/js/extensions/revolution.extension.layeranimation.min.js"></script>
+	<script src="plugins/revolutionslider/js/extensions/revolution.extension.migration.min.js"></script>
+	<script src="plugins/revolutionslider/js/extensions/revolution.extension.navigation.min.js"></script>
+	<script src="plugins/revolutionslider/js/extensions/revolution.extension.parallax.min.js"></script>
+	<script src="plugins/revolutionslider/js/extensions/revolution.extension.slideanims.min.js"></script>
+	<script src="plugins/revolutionslider/js/extensions/revolution.extension.video.min.js"></script>
+
+	<!-- FANCYBOX -->
+	<script src="plugins/fancybox/jquery.fancybox.min.js"></script>
+
 	<!-- PLACEHOLDER -->
-	<script src="assets/plugins/placeholders/jquery.placeholder.min.js"></script>
-	
+	<script src="plugins/placeholders/jquery.placeholder.min.js"></script>
+
 	<!-- CONTACT FORM VALIDATE & SUBMIT -->
-	<script src="assets/plugins/validate/jquery.validate.min.js"></script>
-	<script src="assets/plugins/submit/jquery.form.min.js"></script>
-	
-	<!-- GOOGLE MAPS -->
-	<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDwJB5U3ZU5nnV3ta4t1VSz92zQi_3Xmmo"></script>
-	<script src="assets/plugins/googlemaps/gmap3.min.js"></script>
-	
-	<!-- CHARTS -->
-	<script src="assets/plugins/charts/jquery.easypiechart.min.js"></script>
-	
-	<!-- COUNTERS -->
-	<script src="assets/plugins/counters/jquerysimplecounter.js"></script>
-	<script src="assets/plugins/counters/odometer.min.js"></script>
-	
-	<!-- STATISTICS -->
-	<script src="assets/plugins/statistics/chart.min.js"></script>
-	
-	<!-- INSTAFEED -->
-	<script src="assets/plugins/instafeed/instafeed.min.js"></script>
-	
-	<!-- TWITTER -->
-	<script src="assets/plugins/twitter/twitterfetcher.min.js"></script>
-	
-	<!-- YOUTUBE PLAYER -->
-	<script src="assets/plugins/ytplayer/jquery.mb.ytplayer.min.js"></script>
-	
-	<!-- PORTFOLIO HOVER -->
-	<script src="assets/plugins/portfolio-hover/jquery.directional-hover.min.js"></script>
-	
-	<!-- COUNTDOWN -->
-	<script src="assets/plugins/countdown/jquery.countdown.min.js"></script>
-	
-	<!-- ANIMATIONS -->
-	<script src="assets/plugins/animations/wow.min.js"></script>
-	
-	<!-- CUSTOM JS -->
-	<script src="assets/js/custom.js"></script>
-	
+	<script src="plugins/validate/jquery.validate.min.js"></script>
+	<script src="plugins/submit/jquery.form.min.js"></script>
+
+	<!-- wow -->
+	<script src="plugins/wow/js/wow.min.js"></script>
+	<script>
+		new WOW().init();
+	</script>
+
+	<!-- RETTA -->
+	<script src="plugins/retta/js/custom.js"></script>
+
+	<!-- Custom scripts -->
+	<script src="js/scrolling.js"></script>
 </body>
 
 </html>
