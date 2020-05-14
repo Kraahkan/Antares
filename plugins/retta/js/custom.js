@@ -273,11 +273,11 @@
 								label: "Revenue",
 								backgroundColor: "transparent",
 								borderWidth: 1,
-								borderColor: "#a18b78",
-								pointBorderColor: "#a18b78",
+								borderColor: "#0e337c",
+								pointBorderColor: "#0e337c",
 								pointBackgroundColor: "#fff",
 								pointHoverBackgroundColor: "#fff",
-								pointHoverBorderColor: "#a18b78",
+								pointHoverBorderColor: "#0e337c",
 								pointBorderWidth: 1,
 								pointHoverBorderWidth: 1,
 								tension: 0,
@@ -337,12 +337,12 @@
 							borderWidth: 0,
 							backgroundColor: [
 								"#f40b4c",
-								"#a18b78",
+								"#0e337c",
 								"#72d3d5"
 							],
 							hoverBackgroundColor: [
 								"#f40b4c",
-								"#a18b78",
+								"#0e337c",
 								"#72d3d5"
 							]
 						}]
@@ -396,12 +396,12 @@
 							data: [60, 25, 15],
 							borderWidth: 0,
 							backgroundColor: [
-								"#a18b78",
+								"#0e337c",
 								"#72d3d5",
 								"#f40b4c"
 							],
 							hoverBackgroundColor: [
-								"#a18b78",
+								"#0e337c",
 								"#72d3d5",
 								"#f40b4c"
 							]
@@ -449,11 +449,11 @@
 						datasets : [
 							{
 								label: "Profit",
-								backgroundColor: "#a18b78",
+								backgroundColor: "#0e337c",
 								borderColor: "#fff",
 								borderWidth: 3,
 								hoverBorderWidth: 3,
-								hoverBackgroundColor: "#a18b78",
+								hoverBackgroundColor: "#0e337c",
 								hoverBorderColor: "#fff",
 								data : [80, 70, 60, 50, 80, 60, 55, 45, 35, 45, 50, 40]
 							},
@@ -518,11 +518,11 @@
 								label: "Profit",
 								backgroundColor: "rgba(161, 139, 120, 0.2)",
 								borderWidth: 1,
-								borderColor: "#a18b78",
-								pointBorderColor: "#a18b78",
+								borderColor: "#0e337c",
+								pointBorderColor: "#0e337c",
 								pointBackgroundColor: "#fff",
 								pointHoverBackgroundColor: "#fff",
-								pointHoverBorderColor: "#a18b78",
+								pointHoverBorderColor: "#0e337c",
 								pointBorderWidth: 1,
 								pointHoverBorderWidth: 1,
 								tension: 0.4,
