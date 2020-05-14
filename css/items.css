@@ -7,7 +7,7 @@
 }
 
 .inner {
-    background-color: #a18b78;
+    background-color: rgb(30, 80, 10);
     margin: 10px;
     padding: 85px 0;
     background-position: center;
@@ -35,12 +35,12 @@
 h2, h3 {
     text-align: center;
     margin: 50px;
-    color: #7a695a;
+    color: #0e337c;
 }
 
 .service-box h5, .service-box i
 {
-    color: #7a695a;
+    color: #0e337c;
     opacity: 0.5;
 }
 

@@ -1,7 +1,7 @@
 html {
     scroll-behavior: smooth;
   }
-
+  
 #logo {
     height: 75px;
 }
@@ -11,7 +11,6 @@ html {
     width: 80px;
     height: 80px;
     top: -25px;
-    padding: 11px;
 }
 
 header {
@@ -24,4 +23,25 @@ header {
 
 .rev_slider li img {
     opacity: 0.6;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1 {
+    position: relative;
+    top: -20px;
+    font-size: 40px;
+    color: #0e337c;
+}
+
+h1:hover, h3:hover {
+    text-decoration: none;
+    transition: all 0.5s;
+    color: #576fa1;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
 }
